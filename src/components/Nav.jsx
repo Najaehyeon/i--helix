@@ -37,7 +37,7 @@ function Nav() {
                 <h2 className={style.title}>
                     <Link to="/" id={style.logo}>
                         <TextType 
-                            text={["Insight Hub"]}
+                            text={["I--HELIX"]}
                             typingSpeed={75}
                             showCursor={false}
                             textColors={"#ff6600"}
