@@ -6,7 +6,7 @@ function Home() {
     const [insights, setInsights] = useState([]);
     useEffect(() => {
         getInsights();
-    }, []);
+    }, [insights]);
     async function getInsights() {
         const { data } = await supabase
             .from("insight")

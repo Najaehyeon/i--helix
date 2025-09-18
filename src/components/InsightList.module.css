@@ -17,3 +17,15 @@
     margin: 8px 0;
     color: #545454;
 }
+
+/* InsightList.module.css 파일에 추가 */
+.likeText {
+    cursor: pointer;
+    font-weight: bold;
+    color: #ff6600; /* 예시 색상 */
+}
+
+/* 마우스 오버 시 효과를 주고 싶다면 */
+.likeText:hover {
+    text-decoration: underline;
+}
