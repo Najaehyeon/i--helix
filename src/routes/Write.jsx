@@ -69,7 +69,7 @@ function Write() {
                         <input
                             type="URL"
                             className={style.inputURL}
-                            placeholder="공유할 URL을 입력해주세요."
+                            placeholder="공유할 인사이트의 URL을 입력해주세요."
                             value={contentURL}
                             onChange={(e) => setContentURL(e.target.value)}
                             required

@@ -123,9 +123,9 @@ function InsightList(props) {
                                 올려 {insight.like}
                             </span> 
                             &nbsp;&nbsp;|&nbsp; {formatTimeAgo(insight.created_at)}
-                            &nbsp;&nbsp;|&nbsp;
+                            &nbsp;&nbsp;|&nbsp;&nbsp;
                             <span>
-                                <Link to={`comment/${insight.id}`}>댓글 {insight.comment}</Link>
+                                <Link to={`comment/${insight.id}`} className={style.commentText}>댓글 {insight.comment}</Link>
                             </span>
                             &nbsp;&nbsp;|&nbsp; by {insight.author}
                         </p>
